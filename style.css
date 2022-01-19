@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(76, 116, 190);
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.main {
+  width: 80vw;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.titulo {
+  padding: 15px;
+  width: 30vw;
+  margin: auto;
+  color: rgb(153, 63, 90);
+
+}
+
+header {
+  width: 60vw;
+  text-align: center;
+  margin: 5px auto;
+  background-color: #edf8ff;
+  border: 1px solid black;
+  border-radius: 5px;
+  box-shadow: 0.5px 0.5px 2px 0.5px black;
+}
+h2 {
+  font-size: 1.3em;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #16618c;
+  text-shadow: 1.2px 1.2px 1px black;
+  padding: 5px;
+}
+section {
+  display: flex;
+  text-align: center;
+  justify-content: space-evenly;
+}
+#aclaracion {
+  color: white;
+  text-align: center;
+  font-size: 0.9em;
+  padding: 5px;
+  margin: 20px auto 5px;
+  text-decoration: underline;
+}
+#form {
+  display: block;
+  width: 40vw;
+  height: auto;
+}
+
+.cuadro-texto {
+  background-color: #c08f57;
+  padding: 10px;
+  width: 35vw;
+  height: 150px;
+  border: 2px solid black;
+  border-radius: 10px;
+  box-shadow: 1px 1px 3px black;
+}
+
+.cuadro-texto:hover {
+  box-shadow: 2px 2px 5px black;
+}
+
+#copiador {
+  display: block;
+  margin: 0 auto;
+}
+.cuadro-texto::placeholder {
+  color: black;
+  vertical-align: middle;
+  text-align: center;
+  margin: 5px;
+  padding: 10px;
+}
+
+.button {
+  color: white;
+  background-color: #16618c;
+  font-size: 0.7em;
+  font-weight: bold;
+  font-style: italic;
+  width: 80px;
+  height: 30px;
+  border: 1px solid black;
+  border-radius: 10px;
+  box-shadow: 1px 1px 3px black;
+  text-shadow: 0.7px 0.7px 3px black;
+}
+.button:hover {
+  width: 85px;
+  height: 32px;
+  background-color: #4c8aad;
+}
+#firma {
+  color: black;
+  font-family: 'Courier New', Courier, monospace;
+
+  font-size: 0.9em;
+  text-align: center;
+  margin: 100px auto;
+}
+

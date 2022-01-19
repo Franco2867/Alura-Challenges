@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1 class="titulo">Código Secreto</h1>
+
+  <main>
+    <p id="aclaracion">
+      Solo minusculas sin acento ni numeros.
+    </p>
+    <section>
+      <div id="form">
+        <form action="">
+          <label for="ingreso-texto">
+            <textarea
+              id="ingreso-texto"
+              class="cuadro-texto"
+              cols="50"
+              rows="10"
+              placeholder="Ingrese el texto a encriptar aquí."
+            ></textarea>
+            <input
+              id="encriptar"
+              type="submit"
+              class="button"
+              value="Encriptar"
+            />
+            <input
+              id="desencriptar"
+              type="submit"
+              class="button"
+              value="Desencriptar"
+            />
+          </label>
+        </form>
+      </div>
+      <div>
+        <form action="">
+          <label for="decodificado">
+            <textarea
+              id="decodificado"
+              class="cuadro-texto"
+              cols="50"
+              rows="10"
+              placeholder="Ingrese el texto a desencriptar aquí."
+            ></textarea>
+            <button id="copiador" class="button">Copiar</button>
+          </label>
+        </form>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <p id="firma">Confeccionado por <strong>Franco Leonel Dalinger</strong>.</p>
+  </footer>
+  <script src="./js/encriptar.js"></script>
+  <script src="./js/desencriptar.js"></script>
+  <script src="./js/portapapeles.js"></script>
+</body>
+</html>
